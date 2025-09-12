@@ -13,4 +13,5 @@ import lombok.NoArgsConstructor;
         private Double alturaManometrica;   // metros
         private Double potenciaUtil;        // kW
         private Double npshDisponivel;      // metros
+        //uygusvgc
 }
