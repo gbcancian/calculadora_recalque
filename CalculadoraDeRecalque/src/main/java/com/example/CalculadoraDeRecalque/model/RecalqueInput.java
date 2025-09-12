@@ -32,5 +32,22 @@ public class RecalqueInput {
     @Min(value = 0, message = "Altura geométrica deve ser maior que 0")
     private Double alturaGeometrica;
 
+    private double volume;
+    private double tempo;
+
+
+    public double getVolume() {
+        return volume;
+    }
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+    public double getTempo() {
+        return tempo;
+    }
+    public void setTempo(double tempo) {
+        this.tempo = tempo;
+    }
+
 
 }

@@ -13,5 +13,21 @@ import lombok.NoArgsConstructor;
         private Double alturaManometrica;   // metros
         private Double potenciaUtil;        // kW
         private Double npshDisponivel;      // metros
-        //uygusvgc
+
+        private double vazao;
+        private String unidade;
+
+
+        public double getVazao() {
+            return vazao;
+        }
+        public void setVazao(double vazao) {
+            this.vazao = vazao;
+        }
+        public String getUnidade() {
+            return unidade;
+        }
+        public void setUnidade(String unidade) {
+            this.unidade = unidade;
+        }
 }
